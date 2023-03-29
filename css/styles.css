@@ -1,0 +1,110 @@
+/* Hecho por sergio ortiz garzon  */
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Rampart+One&display=swap");
+body {
+  background-color: #bfbfbf;
+}
+#botones {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding: 100px 0px;
+  background: url("../img/mountain-g4fbaea341_1280.jpg");
+  background-size: cover;
+}
+#botones button {
+  padding: 14px 30px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 15px;
+  border-radius: 15px;
+  font-family: "Gloock", serif;
+  font-family: "Rampart One", cursive;
+  transition: 0.5s;
+}
+#botones h1 {
+  color: beige;
+  font-size: 80px;
+  padding: 50px;
+}
+body {
+  font-family: "Gloock", serif;
+  font-family: "Rampart One", cursive;
+}
+#botones button:hover {
+  background: #ffffff;
+  color: #000000;
+  padding: 14px 50px;
+}
+
+/* estilos ejercicio figura */
+#contPrincipal {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  background: #000000;
+}
+#contPrincipal #botones {
+  width: 40%;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid #000000;
+  color: aquamarine;
+}
+
+#contPrincipal #contFigura {
+  width: 40%;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid #000000;
+  color: aquamarine;
+}
+
+#figura {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  margin: 40px auto;
+  transition: 0.5s;
+}
+#figura.circulo {
+  border-radius: 50%;
+  transition: 0.5;
+}
+#figura.rectangulo {
+  height: 400px;
+  width: 200px;
+}
+#figura.rombo {
+  transform: rotate(45deg);
+  transform: 0.5s;
+}
+#figura.gif {
+  background: url("../img/giphy.gif");
+  background-size: cover;
+  transition: 0.5s;
+}
+#figura.izquierda {
+  transform: translateX(-200px);
+  transition: 0.5s;
+}
+#figura.derecha {
+  transform: translateX(200px);
+  transition: 0.5s;
+}
+#figura.arriba {
+  transform: translateY(-200px);
+  transition: 0.5s;
+}
+#figura.abajo {
+  transform: translateY(200px);
+  transition: 0.5s;
+}
+#figura.diagonal {
+  transform: translate(100px, 200px);
+  transition: 0.5s;
+}
